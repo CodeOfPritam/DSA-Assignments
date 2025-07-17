@@ -19,5 +19,6 @@ int main()
             min=arr[i];
     } 
     printf("Minimum element of the array is %d\n",min);
+    free(arr);
     return 0;
 }

@@ -1,0 +1,6 @@
+# Ignore specific executables
+prog[1-9].exe
+prog10.exe
+
+# Ignore VS Code settings folder
+.vscode/

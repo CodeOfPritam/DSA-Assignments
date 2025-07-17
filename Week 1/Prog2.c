@@ -35,5 +35,6 @@ int main()
         }
     }
     printf("%d position maximum element is %d", pos, ele);
+    free(arr);
     return 0;
 }
