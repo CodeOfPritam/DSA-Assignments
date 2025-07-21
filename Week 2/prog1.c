@@ -149,5 +149,6 @@ int main()
     }
     while (option<=4);
     printf("You have entered wrong choice!");
+    free(sp);
     return 0;
 }
